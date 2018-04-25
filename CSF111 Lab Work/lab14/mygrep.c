@@ -2,7 +2,6 @@
 #include<string.h>
 
 #define MAX 1000
-#define KRED  "\x1B[31m"
 
 int main(int argc, char *argv[])
 {
@@ -11,7 +10,7 @@ int main(int argc, char *argv[])
 
 	char string[MAX];
 
-	while(fgets(string, MAX, fp)!=EOF)
+	while(fgets(string, MAX, fp)!=NULL)
 	if(strstr(string, argv[1])!=NULL)
-		fputs(string, stdout);
+		printf("%s", string);
 }
