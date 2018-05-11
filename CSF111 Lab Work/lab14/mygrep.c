@@ -6,7 +6,14 @@
 int main(int argc, char *argv[])
 {
 	FILE *fp;
-	fp = fopen(argv[2], "r");
+    
+    if(argc<3)
+	{
+		printf("Insufficient number of arguments provided! Exiting (Error: -1)\n");
+		return -1;
+	}	
+
+    fp = fopen(argv[2], "r");
 
 	char string[MAX];
 

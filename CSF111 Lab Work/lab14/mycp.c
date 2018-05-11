@@ -7,9 +7,9 @@ int main(int argc, char *argv[])
 {
 	FILE *fp1, *fp2;
 
-	if(argc==1)
+	if(argc<3)
 	{
-		printf("No Arguments provided\n");
+		printf("Insufficient number of arguments provided! Exiting (Error: -1)\n");
 		return -1;
 	}
 

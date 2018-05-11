@@ -6,6 +6,10 @@ int main(int argc, char *argv[])
 
 {
 	FILE *fp;
+    char c;
+    if (argc==1)
+        while((c=getchar())!=EOF)
+            putchar(c);
 	while(--argc)
 	{
 		fp = fopen(argv[argc], "r");
