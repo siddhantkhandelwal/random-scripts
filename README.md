@@ -1,11 +1,9 @@
-#This repo houses the random python scripts and C snippet codes I write in order to carry out random tasks. 
-#This also houses my CSF111 course Lab work submissions, along with the lab sheets.
+### This repo contains 
+1. Random Python, C snippet code. 
+2. CSF111 course Lab work submissions at BITS Pilani.
+3. Python assignments done int the python_sig.
 
-**TODO:**
+### TODO
 1. Streamline the scripts.
 2. Clear clutter.
 3. Categorize them.
-
-##Python_SIG:
-1. This repo also houses the python assignments done int the python_sig
-
